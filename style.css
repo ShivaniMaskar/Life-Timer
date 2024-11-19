@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+html,
+body{
+    font-family: "Oswald", sans-serif;
+}
+ .background{
+    background-image: url("./images/mountain.jpg");
+   height: 100vh;
+   width:100%;
+   background-size: cover;
+   /* background-position: center; */
+   background-repeat: no-repeat;
+ }
+ .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+ }
+ .container h1{
+    font-size:50px;
+ }
+.settings {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.settings input {
+    padding: 5px;
+}
+.settings button {
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    background: green;
+    color: white;
+}
+.time-container {
+    margin: 20px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.center h2 {
+    text-align: center;
+    /* align-items: center; */
+}
+.center div{
+    color: white;
+    font-size: 4rem;
+}
+.hide{
+    display: none;
+}
